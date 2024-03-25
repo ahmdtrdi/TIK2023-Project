@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Name:</strong> Triadi M</li>
+                <li><strong>Phone:</strong> +62 (822) 917-19231 </li>
+                <li><strong>Address:</strong> Jl, Pulau Pelleng, Kleak, Malalayang, Kota Manado</li>
+                <li><strong>Email:</strong> triadim.works@gmail.com</li>
+            </ul>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
