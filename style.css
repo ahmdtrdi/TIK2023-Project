@@ -228,6 +228,7 @@ nav ul li a {
  }
 
  .nl {
+    padding-right: 120px;
     padding-left: 120px;
     width: 450px;
     margin-top: 20px;
@@ -251,6 +252,42 @@ nav ul li a {
     margin-top: -10px;
     padding-left: 180px;
     font-family: neue-mono-book, monospace;
-    margin-right: 20px;
+    margin-right: 25px;
     font-size: 16px;
+ }
+
+ .rm {
+    font-family: neue-mono-medium, monospace;
+    letter-spacing: 0.2px;
+    padding-left: 180px;
+    color: #252525;
+    text-decoration: none;
+ }
+
+ .date-nl {
+    font-family: neue-mono-book, monospace;
+    padding-left: 120px;
+    color : #8B8B8A;
+ }
+
+ .nl-text {
+    padding-left: 120px;
+    font-family: neue-mono-medium, monospace;
+    letter-spacing: 1px;
+ }
+
+ .nlc-text {
+    margin-top: -10px;
+    padding-left: 120px;
+    font-family: neue-mono-book, monospace;
+    margin-right: 25px;
+    font-size: 16px;
+ }
+
+ .rm-2 {
+    font-family: neue-mono-medium, monospace;
+    letter-spacing: 0.2px;
+    padding-left: 120px;
+    color: #252525;
+    text-decoration: none;
  }
