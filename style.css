@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'neue-mono-book' ;
+    src: url('/Users/ahmadtriadi/Documents/code/assets-bucket/PPNeueMontrealMono-Book.woff') format ('woff');
+    font-weight: book;
+    font-style :normal;
+}
+
+@font-face {
+    font-family: 'neue-mono-medium' ;
+    src: url('/Users/ahmadtriadi/Documents/code/assets-bucket/PPNeueMontrealMono-Medium.woff') format('woff');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue-mono-thin';
+    src: url('/Users/ahmadtriadi/Documents/code/assets-bucket/PPNeueMontrealMono-Thin.woff') format('woff');
+    font-weight: thin;
+    font-style: thin;
+}
+
+@font-face {
+    font-family: 'chakra-petch-medium';
+    src: url('/Users/ahmadtriadi/Documents/code/assets-bucket/Chakra_Petch,Kode_Mono/Chakra_Petch/ChakraPetch-Medium.ttf') format('truetype');
+    font-style: sans-serif;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'chakra-petch-semibold';
+    src: url('/Users/ahmadtriadi/Documents/code/assets-bucket/Chakra_Petch,Kode_Mono/Chakra_Petch/ChakraPetch-SemiBold.ttf') format('truetype');
+    font-style: sans-serif;
+    font-weight: semibold;
+}
+
+@font-face {
+    font-family: 'chakra-petch-bold';
+    src: url('/Users/ahmadtriadi/Documents/code/assets-bucket/Chakra_Petch,Kode_Mono/Chakra_Petch/ChakraPetch-Bold.ttf') format('truetype');
+    font-style: sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #F1F0EE;
+}
+
+nav {
+    padding: 40px;
+    text-align: center;
+    font-family: 'neue-mono-medium'; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display : inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+nav ul li a {
+    color: #252525;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.home {
+    text-align: center;
+    font-family: chakra-petch-bold, bold;
+    font-optical-sizing: auto;
+}
+
+.quotes {
+    padding-top: 200px;
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+
+.coined {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.container-1 {
+    display :flex;
+    align-items: center;
+}
+
+.rectangle-1 {
+    width: 800px;
+      height: 550px;
+      background-color: #252525; 
+    margin-left: 100px;
+    margin-top: 380px;
+}
+
+.fe {
+    font-family: chakra-petch-semibold, sans-serif;
+    color: #F1F0EE;
+    padding-top: 35px;
+    font-size: 20px;
+    padding-right: 350px;
+}
+
+.df {
+    width: 780px;
+    padding-left: 60px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.fl {
+    margin-left: 100px;
+    margin-right: 25px;
+    padding-top: 350px;
+
+}
+
+.fl-txt {
+    font-size: 22px;
+    line-height: 2.0;
+}
+
+.container-2{
+    margin-top: 180px;
+    margin-left:100px;
+    display :flex;
+    align-items: center;
+}
+
+.rectangle-2 {
+    width: 800px;
+      height: 550px;
+      background-color: #252525; 
+}
+
+.koordi {
+    font-family: chakra-petch-semibold, sans-serif;
+    color: #F1F0EE;
+    padding-top: 35px;
+    font-size: 20px;
+    padding-right: 350px;
+}
+
+.ux {
+    width: 780px;
+    padding-left: 60px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.cor {
+    margin-left: 100px;
+    margin-right: 25px;
+    padding-top: 350px;
+}
+
+.cor-txt {
+     font-size: 22px;
+    line-height: 2.0;
+}
+
+.wbm-container {
+    display : flex;
+}
+
+.wbm-text {
+    font-family: neue-mono-book, monospace;
+    font-size : 18px;
+    padding-left: 15px;
+    letter-spacing: 0.5px;
+    padding-top: 200px;
+    padding-right: 200px;
+}
+
+.wbm-text-2 {
+    font-family: chakra-petch-bold, sans-serif;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-right: 400px;
+   letter-spacing: -1px;
+}
+
+.content-container1 {
+    display : flex;
+}
+
+.subtitle {
+    display : inline-block;
+    font-family: neue-mono-book, monospace;
+    margin-left :15px;
+    letter-spacing: 0.5px;
+}
+
+.sub1-title {
+    margin-bottom: 50px ;
+}
+
+.sub2-title {
+   margin-bottom: -15px;
+}
+
+.sub3-title {
+    margin-bottom: -15px;
+ }
+
+ .c1-bc {
+   display: inline-block;
+ }
+
+ .c2-nl {
+    display: inline-block;
+ }
+
+ .bc {
+    padding-left: 180px;
+    width: 450px;
+    margin-top: 20px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+ }
+
+ .nl {
+    padding-left: 120px;
+    width: 450px;
+    margin-top: 20px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+ }
+
+ .date-bc {
+    font-family: neue-mono-book, monospace;
+    padding-left: 180px;
+    color : #8B8B8A;
+ }
+
+ .bc-text {
+    padding-left: 180px;
+    font-family: neue-mono-medium, monospace;
+    letter-spacing: 1px;
+ }
+
+ .bcc-text {
+    margin-top: -10px;
+    padding-left: 180px;
+    font-family: neue-mono-book, monospace;
+    margin-right: 20px;
+    font-size: 16px;
+ }
